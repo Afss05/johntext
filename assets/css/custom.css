@@ -1,0 +1,90 @@
+.heading-1 {
+    font-family: "Anek Tamil", system-ui;
+    font-weight: 800;
+    font-size: 24px;
+    line-height: 30px;
+    font-style: normal;
+}
+
+.heading-2 {
+    font-family: "Anek Tamil", system-ui;
+    font-weight: 800;
+    font-size: 18px;
+    font-style: normal;
+}
+
+.heading-3 {
+    font-family: "Anek Tamil", system-ui;
+    font-weight: 1000;
+    font-size: 24px;
+    font-style: normal;
+}
+
+.name {
+    font-family: "Anek Tamil", system-ui;
+    font-weight: 800;
+    font-size: 30px;
+    font-style: normal;
+}
+
+.designation {
+    font-family: "Anek Tamil", system-ui;
+    font-weight: 800;
+    font-size: 24px;
+    font-style: normal;
+}
+
+.tab-pill-font {
+    font-family: "Anek Tamil", system-ui;
+    font-weight: 800;
+    font-size: 18px;
+    font-style: normal;
+}
+
+.nav-custom.nav-pills .nav-link.active,
+.nav-custom.nav-pills .show > .nav-link {
+    background-color: #1e355e;
+    color: #fff
+}
+
+.nav-custom.nav-pills .nav-link {
+    color: #004bd1
+}
+
+ul.listed {
+    --icon-space: 1.3em;
+    list-style: none;
+    padding: 0;
+    color: aliceblue;
+}
+ul.blisted {
+    --icon-space: 1.3em;
+    list-style:outside;
+    padding: 0;
+    color: black;
+}
+
+ul.clisted {
+    --icon-space: 1.3em;
+    list-style:outside;
+    padding: 0;
+    color: black;
+    text-align: left
+}
+ul.listed li {
+    padding-left: var(--icon-space);
+    margin-bottom: 15px;
+}
+
+ul.listed li:before {
+    content: "\f00c";
+    color: #ffff;
+    font-family: FontAwesome;
+    display: inline-block;
+    margin-left: calc(var(--icon-space) * -1);
+    width: var(--icon-space);
+}
+
+.social-icons li {
+    padding: 10px;
+}
